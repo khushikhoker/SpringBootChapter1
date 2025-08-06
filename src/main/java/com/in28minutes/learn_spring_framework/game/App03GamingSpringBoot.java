@@ -1,9 +1,6 @@
-package com.in28minutes.learn_spring_framework;
+package com.in28minutes.learn_spring_framework.game;
 
-import com.in28minutes.learn_spring_framework.game.GamingConsole;
-import com.in28minutes.learn_spring_framework.game.MarioGame;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
