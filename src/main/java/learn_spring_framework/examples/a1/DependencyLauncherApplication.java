@@ -16,9 +16,22 @@ class YourBusinessClass {
                 ", dependency2=" + dependency2 +
                 '}';
     }
+
     @Autowired
+    public void setDependency2(Dependency2 dependency2) {
+        System.out.println("Setter dependency1");
+        this.dependency2 = dependency2;
+    }
+
+    @Autowired
+    public void setDependency1(Dependency1 dependency1) {
+        System.out.println("Setter dependency2 ");
+        this.dependency1 = dependency1;
+    }
+
+
     Dependency1 dependency1;
-    @Autowired
+
     Dependency2 dependency2;
 }
 @Component
